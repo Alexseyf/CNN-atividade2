@@ -60,7 +60,7 @@ O projeto utiliza o arquivo `pyproject.toml` para gerenciar suas dependências. 
 
 O dataset usado neste projeto contém imagens faciais classificadas em seis emoções diferentes. As imagens são pré-processadas através das seguintes etapas:
 
-1. Redimensionamento para 48x48 pixels
+1. Redimensionamento para 64x64 pixels
 2. Conversão para escala de cinza
 3. Normalização dos valores dos pixels
 4. Aumento de dados (data augmentation) para melhor generalização
